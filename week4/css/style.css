@@ -3,7 +3,7 @@ body{
    margin: 0 auto;
 }
 
-header, footer{
+header{
    margin: 0 auto;
    /*border: ;*/
    padding: 1rem;
