@@ -1,9 +1,27 @@
 body{
    font-size: 16px;
+   margin: 0 auto;
 }
 
+header, footer{
+   margin: 0 auto;
+   /*border: ;*/
+   padding: 1rem;
+   background-color: #17BA12;
+   display: grid;
+   grid-template-columns: 110px 1fr;
+   align-items: center;
+   justify-content: center;
+}
+
+main{
+   margin: 0 auto;
+   background-color: ;
+}
+
+
 h1{
-   color: #631c1f;
+   color: #17BA12;
 
 }
 
@@ -11,4 +29,9 @@ h1{
 .logo{
    width: 80px;
    height: auto;
+}
+
+.page{
+   max-width: 760px;
+   margin: 0 auto;
 }
