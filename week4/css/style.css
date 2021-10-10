@@ -31,11 +31,6 @@ a:link {
    color: red;
 }
 
-h1{
-   /*color: #FFFFC7;*/
-
-}
-
 /* Class Selectors */
 .logo{
    width: 80px;
@@ -55,4 +50,8 @@ div.demo {
 div.demo span {
    display: table-cell;
    text-align: center;
+}
+
+span.legal {
+   align-items: right;
 }
