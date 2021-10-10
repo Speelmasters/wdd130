@@ -9,9 +9,16 @@ header, footer {
    padding: 1rem;
    background-color: #FFFFC7;
    display: grid;
-   grid-template-columns: 110px 1fr;
    align-items: center;
    justify-content: center;
+}
+
+header{
+   grid-template-columns: 110px 1fr;
+}
+
+footer{
+   grid-template-columns: 300px 1fr;
 }
 
 main{
