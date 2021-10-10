@@ -43,16 +43,23 @@ a:link {
    margin: 0 auto;
 }
 
-div.demo {
+div.links{
    display: table;
    width: 100%;
    table-layout: fixed;    /* For cells of equal size */
 }
-div.demo span {
+
+div.links span {
    display: table-cell;
    text-align: center;
 }
 
-span.legal {
-   
+div.social{
+   display: table;
+   width: 100%;
+}
+
+div.links span {
+   display: table-cell;
+   text-align: right;
 }
