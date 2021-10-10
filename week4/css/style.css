@@ -7,7 +7,7 @@ header, footer {
    margin: 0 auto;
    /*border: ;*/
    padding: 1rem;
-   background-color: #17BA12;
+   background-color: #FFFFC7;
    display: grid;
    grid-template-columns: 110px 1fr;
    align-items: center;
@@ -21,7 +21,7 @@ main{
 
 
 h1{
-   color: #FFFFC7;
+   /*color: #FFFFC7;*/
 
 }
 
