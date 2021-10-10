@@ -42,3 +42,13 @@ h1{
    max-width: 760px;
    margin: 0 auto;
 }
+
+div.demo {
+   display: table;
+   width: 100%;
+   table-layout: fixed;    /* For cells of equal size */
+}
+div.demo span {
+   display: table-cell;
+   text-align: center;
+}
