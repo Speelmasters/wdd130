@@ -1,7 +1,7 @@
 body{
    font-size: 16px;
    margin: 0 auto;
-   padding: 0 auto;
+   padding: 0;
 }
 
 header, footer {
@@ -10,16 +10,17 @@ header, footer {
    padding: 1rem;
    background-color: #FFFFC7;
    display: grid;
-   align-items: center;
    justify-content: center;
 }
 
 header{
    grid-template-columns: 110px 1fr;
+   align-items: center;
 }
 
 footer{
    grid-template-columns: 300px 1fr;
+   align-items: right;
 }
 
 main{
@@ -53,5 +54,5 @@ div.demo span {
 }
 
 span.legal {
-   vertical-align: right;
+   
 }
