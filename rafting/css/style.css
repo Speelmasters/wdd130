@@ -20,8 +20,7 @@ header{
 }
 
 footer{
-   grid-template-columns: 300px 1fr;
-   align-items: right;
+   grid-template-columns: 350 1fr;
 }
 
 main{
@@ -65,4 +64,9 @@ div.social{
 div.links span {
    display: table-cell;
    justify-content: right;
+}
+
+.hero {
+   width: auto;
+   height: auto;
 }
