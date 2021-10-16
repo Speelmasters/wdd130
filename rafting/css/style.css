@@ -19,9 +19,6 @@ header{
    align-items: center;
 }
 
-footer{
-   grid-template-columns: 350 1fr;
-}
 
 main{
    margin: 1rem;
