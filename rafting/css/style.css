@@ -9,7 +9,7 @@ header, footer {
    margin: 0 auto;
    /*border: ;*/
    padding: 1rem;
-   background-color: #00B7ff;
+   background-color: #FFFFC7;
    display: grid;
    justify-content: center;
 }
@@ -26,7 +26,7 @@ footer{
 
 main{
    margin: 0 auto;
-   background-color: #FFFFC7;
+   background-color: #00B7ff;
 }
 
 a:link {
