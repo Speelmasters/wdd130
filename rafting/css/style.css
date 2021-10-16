@@ -29,7 +29,8 @@ a:link {
    color: red;
 }
 
-h1, h2, h3, h4, h5, h6 {font-family: Nunito, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family: Nunito, sans-serif;
+font-size: 24px;}
 
 /* Class Selectors */
 .logo{
@@ -65,5 +66,10 @@ div.links span {
 
 .hero {
    width: 728px;
+   height: auto;
+}
+
+.itemimage {
+   width: 300px;
    height: auto;
 }
