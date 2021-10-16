@@ -2,13 +2,14 @@ body{
    font-size: 16px;
    margin: 0 auto;
    padding: 0;
+   font-family: Raleway, sans-serif;
 }
 
 header, footer {
    margin: 0 auto;
    /*border: ;*/
    padding: 1rem;
-   background-color: #FFFFC7;
+   background-color: #00B7ff;
    display: grid;
    justify-content: center;
 }
@@ -31,6 +32,8 @@ main{
 a:link {
    color: red;
 }
+
+h1, h2, h3, h4, h5, h6 {font-family: Nunito, sans-serif;}
 
 /* Class Selectors */
 .logo{
