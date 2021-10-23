@@ -1,0 +1,168 @@
+/* WDD 130 Positioning Activity */
+
+/* Activity 1 Styles */
+.content1 {
+  /* Activity One Container */
+}
+.red1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow1 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 2 Styles */
+.content2 {
+  /* Activity Two Container */
+}
+.red2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow2 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 3 Styles */
+.content3 {
+  /* Activity Three Container */
+}
+.red3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow3 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 4 Styles */
+.content4 {
+  /* Activity Four Container */
+  height: 400px;
+}
+.red4 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green4 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow4 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue4 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 5 Styles */
+.content5 {
+  /* Activity Five Container */
+  height: 400px;
+}
+.red5 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green5 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow5 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue5 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Activity 6 Styles */
+.content6 {
+  /* Activity Six Container */
+}
+.red6 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.green6 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+.yellow6 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+.blue6 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+/* Do not change this container class */
+.activity {
+  width: 600px;
+  margin: 1rem auto;
+  font-family: Arial, sans-serif;
+  border: 1px solid #777;
+  padding: 1rem;
+  clear: both;
+  overflow: auto;
+}
+
+.title {
+  background-color: #ddd;
+}
