@@ -1,11 +1,12 @@
 /* WDD 130 Positioning Activity */
 
 /* Activity 1 Styles */
-.content1 {
-  /* Activity One Container */
+.content1 {      
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .red1 {
-  width: 100px;
+  width: 100%;
   height: 100px;
   background-color: red;
 }
@@ -20,7 +21,7 @@
   background-color: gold;
 }
 .blue1 {
-  width: 100px;
+  width: 100%;
   height: 100px;
   background-color: blue;
 }
