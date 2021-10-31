@@ -11,6 +11,7 @@ header, footer {
    padding: 1rem;
    background-color: #FFFFC7;
    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    justify-content: center;
 }
 
@@ -23,6 +24,12 @@ header{
 main{
    margin: 1rem;
    background-color: #00B7ff;
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   grid-gap: 10px;
+   height: 1200px;
+   justify-items: center;
 }
 
 a:link {
@@ -67,10 +74,39 @@ div.links span {
 .hero {
    width: 728px;
    height: auto;
+   grid-column: 1/3;
+   grid-row: 1/2;
 }
 
 .itemimage {
    width: 300px;
    height: auto;
    box-shadow: 2px 2px 10px rgb(59, 63, 104);
+}
+
+.one {
+   width: 200px;
+   height: 200px;
+   grid-column: 1/3;
+   grid-row: 2/3;
+}
+
+.two {
+   width: 200px;
+   height: 200px;
+   grid-column: 1/2;
+   grid-row: 3/4;
+}
+
+.three {
+   width: 200px;
+   height: 200px;
+   grid-column: 1/2;
+   grid-row: 4/5;
+}
+
+.CTA {
+   float: center;
+   grid-row: 1/2;
+   grid-column: 1/3;
 }
