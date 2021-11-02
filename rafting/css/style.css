@@ -5,6 +5,7 @@ body{
    font-family: Raleway, sans-serif;
    line-height: normal;
    background-color: #FFFFC7;
+   margin: auto;
 }
 
 header, footer {
@@ -38,6 +39,11 @@ h1, h2, h3, h4, h5, h6 {font-family: Nunito, sans-serif;
 font-size: 24px;}
 
 /* Class Selectors */
+
+.content {
+   margin: auto;
+}
+
 .logo{
    width: 80px;
    height: auto;
@@ -46,7 +52,7 @@ font-size: 24px;}
 
 .page{
    max-width: 1000px;
-   margin: 1rem;
+   margin: auto;
 }
 
 div.links{
@@ -87,7 +93,8 @@ nav {
 .navigation a {
    display: block;
    text-decoration: none;
-
+   border: 1px solid#444;
+   padding: 10px;
 }
 
 .hero {
