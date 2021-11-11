@@ -4,7 +4,9 @@ body{
    padding: 0;
    font-family: Raleway, sans-serif;
    line-height: normal;
-   background-color: #FFFFC7;
+   background-image: linear-gradient(
+      to bottom left, #30c226b0,rgba(128, 128, 128, 0.637), #24981cb0
+   );
    margin: auto;
 }
 
@@ -12,7 +14,7 @@ header, footer {
    max-width: 1000px;
    margin: 0 auto;
    padding: 1rem;
-   background-color: #00B7ff;
+   background-color: #00b7ff52;
    align-items: center;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -24,11 +26,13 @@ header{
 
 
 main{
-   margin: 1rem;
-   background-color: #00B7ff;
+   margin: auto;
+   padding: 1rem;
+   background-color: #00b7ff52;
    grid-gap: 10px;
    height: auto;
    justify-items: center;
+   max-width: 1000px;
 }
 
 a:link {
@@ -169,3 +173,201 @@ button.CTA {
 h1.company {
    grid-column: 2/4;
 }
+
+
+/* FAQ */
+  /* Accordian */
+
+  /* body.faq {
+   box-sizing: border-box;
+} */
+
+h2.title {
+   margin-top: 50px;
+   font-size: xx-large;
+   margin-bottom: -80px;
+   margin-left: 30px;
+}
+
+section.faq {
+   width: 100%;
+   height: 100vp;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+.container {
+   width: 100%;
+   max-width: 80rem;
+   margin: 0 auto;
+   padding: 0 1.5rem;
+}
+
+.accordian-item {
+   background-color: #1e7c188f;
+   border-radius: .4rem;
+   margin-bottom: 1rem;
+   padding: 1rem;
+   box-shadow: .5rem 2px .5rem rgba(0,0,0,.5);
+}
+
+.accordian-link {
+   font-size: 1.6rem;
+   color: rgba(225, 225, 255, .8);
+   text-decoration: none;
+   background-color: #283042;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 1rem 0;
+}
+
+.accordian-link ion-icon{
+   color: #e7d5ff;
+   padding: .5rem;
+}
+
+ion-icon.remove{
+   display: none;
+}
+
+.answer {
+   max-height: 0;
+   overflow: hidden;
+   position: relative;
+   background-color: #335199;
+   transition: max-height 850ms;
+}
+
+.answer::before {
+   content: "";
+   position: absolute;
+   width: .6rem;
+   height: 100%;
+   background-color: #ffffff;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+}
+
+.answer p{
+   color: rgba(255, 255, 255, .6);
+   font-size: 1.4rem;
+   padding: 2rem;
+}
+
+.accordian-item:target .answer{
+   max-height: 40rem;
+}
+
+.accordian-item:target .accordian-link ion-icon.remove{
+   display: block;
+}
+
+.accordian-item:target .accordian-link ion-icon.add{
+   display: none;
+}
+
+/* Blog */
+ 
+ /* Fake image */
+ .shortimg {
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 125px;
+   box-shadow: 20px gray;
+   border-radius: 10px;
+   border: 5px solid #555;
+ }
+
+ .longimg {
+   background-color: rgb(0, 0, 0);
+   width: 100%;
+   height: 300px;
+   box-shadow: 20px gray;
+   border-radius: 10px;
+   border: 5px solid #555;
+ }
+
+ 
+ /* Add a card effect for articles */
+ .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8{
+   padding: 20px;
+   margin: 20px;
+   width: 80%;
+   box-shadow: 5px 5px rgb(70, 70, 70);
+   border-radius: 10px;
+   background-image: linear-gradient(
+      to bottom right, #00B7ff, #25981c
+   );
+ }
+
+ .card1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+ }
+
+ .card2 {
+    grid-column: 1/2;
+    grid-row: 3/5;
+ }
+
+ .card3 {
+   grid-column: 1/2;
+   grid-row: 5/7;
+ }
+ 
+ .card4 {
+   grid-column: 3/4;
+   grid-row: 1/3;
+ }
+
+ .card5 {
+   grid-column: 3/4;
+   grid-row: 3/5;
+ }
+ 
+ .card6 {
+   grid-column: 3/4;
+   grid-row: 5/7;
+ }
+
+ .card7 {
+   grid-column: 2/3;
+   grid-row: 1/4;
+ }
+ 
+ .card8 {
+   grid-column: 2/3;
+   grid-row: 4/7;
+ }
+
+
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .row {
+   max-width: 1000px;
+   max-height: 1500px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(6,1fr);
+   margin: auto;
+ }
+
+ .row h5 {
+    font-size: smaller;
+    margin: auto;
+ }
+
+ .row h2 {
+   margin: auto;
+}
+

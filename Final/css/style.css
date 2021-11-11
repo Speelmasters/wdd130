@@ -1,3 +1,18 @@
+
+
+
+@font-face {
+   font-family: 'Elianto';
+   src: url('/Final/Fonts/Elianto-Regular.otf')  format("opentype"), url('/Final/Fonts/Elianto-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body {
+   font-family: Elianto;
+}
+
+/* Custom *?
 .purple {
    background-color: #570f7c;
    width: 200px;
