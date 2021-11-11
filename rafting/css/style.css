@@ -36,7 +36,11 @@ main{
 }
 
 a:link {
-   color: red;
+   color: rgb(4, 0, 255);
+}
+
+a:visited {
+   color: rgb(0, 238, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {font-family: Nunito, sans-serif;
