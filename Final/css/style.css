@@ -10,6 +10,9 @@
 
 body {
    font-family: Elianto;
+   background-image: linear-gradient(
+      to bottom left, #570f7c, #25981c
+   );
 }
 
 /* Custom */
