@@ -332,6 +332,8 @@ ion-icon.remove{
    padding: 20px;
    margin: 20px;
    width: 80%;
+   overflow: hidden;
+   text-overflow:clip;
    box-shadow: 5px 5px rgb(70, 70, 70);
    border-radius: 10px;
    background-image: linear-gradient(
