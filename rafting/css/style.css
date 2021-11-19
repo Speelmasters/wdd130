@@ -219,9 +219,9 @@ button:hover {
 } */
 
 h2.title {
-   margin-top: 50px;
+   margin-top: -50px;
    font-size: xx-large;
-   margin-bottom: -80px;
+   /* margin-bottom: -80px; */
    margin-left: 30px;
 }
 
