@@ -1,0 +1,80 @@
+body {
+   background: linear-gradient(to right, #8e9eab, #eef2f3);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: arial, sans-serif;
+   letter-spacing: 0.03em;
+ }
+
+
+.card {
+   max-width: 400px;
+   max-height: 500px;
+   border-radius: 20px 20px 20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   box-shadow: 0px 10px 10px black;
+   background-color: white;
+   align-items:stretch;
+}
+
+img {
+   border-radius: 20px 20px 0px 0px;
+   position: sticky;
+}
+
+button {
+   float: right;
+   margin: -20px 0 ;
+   padding: 10px;
+   border-radius: 10px;
+   height: 40px;
+   width: 150px;
+   text-align: center;
+   position: relative;
+   bottom: 40px;
+   right: 10px;
+}
+
+h1 {
+   text-align: center;
+   margin-bottom: -2px;
+
+}
+
+p {
+   padding: 5px;
+   margin: 5px;
+}
+
+footer {
+   margin-bottom: 10px;
+   margin-left: 20px;
+}
+
+footer p{
+   font-variant: small-caps;
+}
+
+.heart {
+   border-radius: 50%;
+   width: 34px;
+   height: 34px;
+   background: rgb(255, 0, 0);
+   border: 3px solid rgb(255, 0, 0);
+   color: rgb(0, 0, 0);
+   text-align: center;
+   font-size: x-large;
+   float:left;
+   position: absolute;
+   top: 250px;
+   right: 775px;
+   transition: all .2s ease-in-out;
+}
+
+.heart:hover {
+   transform: scale(1.2);
+}
